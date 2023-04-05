@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main_common{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .TopPoster__div{
+    margin: 1rem;
+    padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .TopPoster__big p{
+    position: relative;
+    bottom: 3rem;
+    left: 10rem;
+  }
+  .TopPoster__big span{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+  }
+  .TopPoster__small{
+    display: flex;
+    flex-direction: column;
+  }
+  .TopPoster__small span{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+  }
+  .TopPoster__small p{
+    position: relative;
+    bottom: 3rem;
+    left: 4rem;
+    color: black;
+  
+  }
+  
+  .common_latest{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+  }
+  .Hollywood-div-latest-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .Hollywood_latest{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+  .Hollywood_latest_p :first-child{
+    color: brown;
+  }
+  .Hollywood_latest_p{
+  padding: 1rem; }
+  .home_add{
+    border: 1px solid black;
+    height: 60vh;
+    width: 25rem;
+    margin-bottom: 2rem;
+    background-image: url("https://newspaperads.ads2publish.com/wp-content/uploads/2019/07/bigbasket-month-end-bigsavers-ad-times-of-india-chennai-29-06-2019-250x358.png") ;
+    background-repeat: no-repeat;
+   background-position: center;
+  
+  }
+  .home_h1{
+    padding: 1rem;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 1rem 20rem;
+  }
+  
+  @media only screen and (max-width: 1000px){
+  
+    .TopPoster__div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    .common_latest{
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .Hollywood-div-latest-add{
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .Hollywood_latest{
+      display: flex;
+    flex-direction: column;
+    
+    }
+   
+    .home_add{
+      width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+    }
+    .home_h1{
+      margin: 1rem 3rem;
+    }
+  }

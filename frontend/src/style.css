@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 100%;
+width: 100%;
+/* background: linear-gradient(pink,rgb(77, 153, 153)) no-repeat; */
+background-color: rgb(217, 231, 231);
+}
+
+.Category_div{
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    }
+.left_Side_Of_Category{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: max-content;
+
+    /* font-family: 'Shantell Sans', cursive; */
+
+}
+.right_Side_Of_Category{
+    /* border: 1px solid black; */
+     /* display: flex; */
+    /* flex-direction: column; */
+  width: 30%;
+  height: max-content;
+}
+/* .right_Side_Of_Category div:first-child{
+    width: 60%;
+} */
+img{
+    border-radius: 4%;
+}
+.catagoryh1{
+    margin: 1rem 4rem;
+    color: rgb(10, 55, 112);
+}
+
+.child_data_left_Side_Of_Category{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+    /* padding: 2rem; */
+    transition: background-color 1s;
+
+}
+.child_data_left_Side_Of_Category:hover{
+    /* background: rgb(172, 167, 167); */
+    background-color:blanchedalmond;
+    box-shadow: 10px 10px 30px ;
+}
+
+.top_news_div{
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 1s;
+
+}
+/* .top_news_div:first-child{
+    width: 100%;
+ 
+} */
+.top_news_div:hover{
+    background-color:blanchedalmond;
+    box-shadow: 10px 10px 30px ;
+
+    }
+.Advertisement{
+    border: 1px solid black;
+    /* background-color: blue; */
+    height: 90vh;
+    margin-top: 250px;
+    background-image: url("https://newspaperads.ads2publish.com/wp-content/uploads/2019/07/bigbasket-month-end-bigsavers-ad-times-of-india-chennai-29-06-2019-250x358.png") ;
+    background-repeat: no-repeat;
+   background-position: center;}
+.description_div{
+/* border: 1px solid red; */
+margin: 2rem;
+text-align: center;}
+hr{
+    margin: 10px;
+    border: 1px solid rgb(121, 113, 113)
+}
+hr.topnews_hr{
+border: 1px solid rgb(121, 113, 113);
+}
+
+.bolly_title{
+font-size: 5vh;    
+color:rgb(177, 28, 28);
+font-family: 'Shantell Sans', cursive;
+}
+.article_div{
+    height: max-content;
+    width: 60%;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1rem;
+    background-color: antiquewhite;
+}
+.article_div h1{
+    color: rgb(177, 28, 28);
+}
+.article_img{
+    margin: 1rem auto;
+}
+.article_description{
+    font-weight: 500;
+}
+.article_more_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(231, 236, 236);
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 500;
+
+}
+.moreh2{
+    text-align: center;
+    background-color: azure;
+    margin: 1rem 20rem;
+}
+@media only screen and (max-width: 1000px){
+    .Category_div{
+        /* margin: 2rem;
+        padding: 1rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         font-weight: 600;
+        }
+    .left_Side_Of_Category{
+        width: 80%;
+    }
+    .right_Side_Of_Category{
+      width: 80%;
+
+      
+    }
+
+    .child_data_left_Side_Of_Category{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 2rem; */
+    
+    }
+
+    .Advertisement{
+        height: 50vh;
+          margin-top: 100px;
+        width: 100%;
+
+    }
+    /* .Advertisement img{
+        width: max-content;
+        height: max-content;
+    } */
+    .description_div{
+    margin: 2rem auto;
+   }
+    .article_div{
+        width: 80%;
+    }
+    .article_img{
+        margin: 1rem auto;
+        width: max-content;
+    }
+    .article_img img {
+        width:300px;
+        height: 300px;
+    }
+    .article_more_div{
+        display: flex;
+        flex-direction: column;    
+    }
+    .moreh2{
+        margin: 1rem 8rem;
+
+    }    
+
+}
